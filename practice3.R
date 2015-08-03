@@ -37,7 +37,7 @@ while (n %% 3 != 0) {
 }
 
 # practice 3.5 (fizzbuzz)
-# for number between 1 and 100,
+# for numbers less than or equal to 100,
 # print fizz if it is divisible by 3
 # print buzz if it is divisible by 5
 # print fizzbuzz if it is divisible by both 3 and 5

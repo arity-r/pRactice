@@ -23,7 +23,7 @@ digits
 # practice 1.3 (vector operation)
 # find how many numbers which are
 #   (i)  divisible by three
-#   (ii) smaller than 1000
+#   (ii) smaller than or equal to 1000
 # with
 #   from:to (colon operator): generates a vector(from, from+1, ..., to-1, to)
 #   length function: get the length of a vector
@@ -33,7 +33,7 @@ length(x[x%%3==0])
 # practice 1.4 (vector operation)
 # find how many numbers which are
 #   (i)  divisible by three or five
-#   (ii) smaller than 1000
+#   (ii) smaller than or equal to 1000
 # with
 #   from:to (colon operator): generates a vector(from, from+1, ..., to-1, to)
 #   length function: get the length of a vector
