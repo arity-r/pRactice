@@ -12,7 +12,7 @@ else print('not divisible by three')
 # (1) if divisible by only three, print 'divisible by three'
 # (2) if divisible by only five, print 'divisible by five'
 # (3) if divisible by three and five, print 'divisible by three and five'
-# (4) if divisible by neighther three nor five,
+# (4) if divisible by neither three nor five,
 #   print 'not divisible by three and five'
 n = scan()
 if (n %% 3 == 0 & n %% 5 != 0) print('divisible by three')
@@ -22,15 +22,15 @@ if (n %% 3 != 0 & n %% 5 != 0) print('not divisible by three and five')
 
 # practice 3.3 (two repetitions: for)
 # With for statement and vector c('fuji', 'orin'),
-# print 'delicious fuji' and 'delicious ohrin'.
+# print 'delicious fuji' and 'delicious orin'.
 # hint: for string concatenation, use paste('foo', 'bar').
-for (w in c('fuji', 'ohrin')) {
+for (w in c('fuji', 'orin')) {
   print(paste('delicious', w))
 }
 
 # practice 3.4 (two repetitions: while)
-# with while statement, <user-input>
-# ask a number until it is divisible by 3
+# with while statement,
+# ask a number till it is divisible by 3
 n = -1
 while (n %% 3 != 0) {
   n = scan()
@@ -56,10 +56,11 @@ for (n in 1:100) {
 # And try it with some words.
 f = function(x) paste('delicious', x)
 f('fuji')
-f('ohrin')
+f('orin')
 
 # practice 3.7 (vector and function)
-# for vector, c('fuji', 'ohrin', ...),
-# create a vector c('delicious fuji', 'delicious ohrin', 'delicious ...')
-# with function f = paste('delicious', x), and supply function
-as.vector(sapply(c('fuji', 'ohrin'), function(x) paste('delicious', x)))
+# for vector, c('fuji', 'orin', ...),
+# create a vector c('delicious fuji', 'delicious orin', 'delicious ...')
+# with function f = paste('delicious', x), and
+# sapply function(see help(sapply))
+as.vector(sapply(c('fuji', 'orin'), function(x) paste('delicious', x)))
