@@ -1,0 +1,47 @@
+John Henry Holland (February 2, 1929 – August 9, 2015) was an American scientist and Professor of psychology and Professor of electrical engineering and computer science at the University of Michigan, Ann Arbor. He was a pioneer in what became known as genetic algorithms.
+
+
+== Biography ==
+Holland was born in Fort Wayne, Indiana, in 1929. He studied physics at the Massachusetts Institute of Technology and received a B.S. degree in 1950, then studied Mathematics at the University of Michigan, receiving an M.A. in 1954. In 1959 he received the first computer science Ph.D. from the University of Michigan. He was a Professor of psychology and Professor of electrical engineering and computer science at the University of Michigan, Ann Arbor.
+Holland was a member of the Board of Trustees and Science Board of the Santa Fe Institute. He received the MacArthur Fellowship in 1992, and was a fellow of the World Economic Forum.
+Holland received the 1961 Louis E. Levy Medal from The Franklin Institute, and the MacArthur Fellowship in 1992.
+Holland died on August 9, 2015 in Ann Arbor, Michigan.
+
+
+== Work ==
+Holland frequently lectured around the world on his own research, and on research and open questions in complex adaptive systems (CAS) studies. In 1975 he wrote the ground-breaking book on genetic algorithms, "Adaptation in Natural and Artificial Systems". He also developed Holland's schema theorem.
+
+
+== Publications ==
+Holland is the author of a number of books about complex adaptive systems, including:
+Adaptation in Natural and Artificial Systems (1975)
+Hidden Order: How Adaptation Builds Complexity (1995)
+Emergence: From Chaos to Order (1998)
+Signals and Boundaries: Building Blocks for Complex Adaptive Systems (2012)
+Articles, a selection:
+"A universal computer capable of executing an arbitrary number of subprograms simultaneously", in: Proc. Eastern Joint Comp. Conf. (1959), pp. 108–112
+"Iterative circuit computers", in: Proc. Western Joint Comp. Conf. (1960), pp. 259–265
+"Outline for a logical theory of adaptive systems", in: JACM, Vol 9 (1962), no. 3, pp. 279–314
+"Hierarchical descriptions, universal spaces, and adaptive systems", in: Arthur W. Burks, editor. Essays on Cellular Automata (1970). University of Illinois Press
+"Using Classifier Systems to Study Adaptive Nonlinear Networks", in: Daniel L. Stein, editor. Lectures in the Sciences of Complexity (1989). Addison Wesley
+"Concerning the Emergence of Tag-Mediated Lookahead in Classifier Systems", in: Stephanie Forrest, editor. Emergent Computation: self-organizing, collective, and cooperative phenomena in natural and computing networks (1990). MIT Press
+"The Royal Road for Genetic Algorithms: Fitness Landscapes and GA Performance", in: Francisco J. Varela, Paul Bourgine, editors. Toward a Practice of Autonomous Systems: proceedings of the first European conference on Artificial Life (1992). MIT Press
+"Echoing Emergence: objectives, rough definitions, and speculations for ECHO-class models", in: George A. Cowan, David Pines, David Meltzer, editors. Complexity: metaphors, models, and reality (1994), Addison-Wesley
+"Can There Be A Unified Theory of Complex Adaptive Systems?", in: Harold J. Morowitz, Jerome L. Singer, editors. The Mind, The Brain, and Complex Adaptive Systems (1995). Addison-Wesley
+"Board Games", in: John Brockman, editor. The Greatest Inventions of the Past 2000 Years (2000). Phoenix
+"What is to Come and How to Predict It.", in: John Brockman, editor. The Next Fifty Years: science in the first half of the twenty-first century (2002). Weidenfeld & Nicholson
+
+
+== References ==
+^ John Henry Holland at the Mathematics Genealogy Project
+^ http://krasnow.gmu.edu/images/DOM%20Photos/Vita%2007.doc
+^ a b "Profile: John H. Holland". Santa Fe Institute. 
+^ "Franklin Laureate Database - Louis E. Levy Medal Laureates". Franklin Institute. Retrieved 22 January 2011. 
+^ https://www.macfound.org/fellows/463/
+^ Complexity science pioneer John Holland passes away at 86 at santafe.edu
+
+
+== External links ==
+Complexity science pioneer John Holland passes away at 86 at santafe.edu
+Biography
+Echo project of John Holland at the Santa Fe Institute
