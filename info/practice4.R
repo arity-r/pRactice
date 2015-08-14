@@ -1,24 +1,23 @@
 
 filename = 'Genetic algorithm.txt'
-#filename = 'FooBar.txt'
+order = 2 # means two words as a group
 
 words = scan(filename, character(0), quiet=T, quote='', encoding='UTF-8')
 words = words[!is.na(words)] # omit NA
 words = gsub('[[:punct:]]', '', words) # omit metacharacters
 words = words[nchar(words)>0] # omit length < 1
 words = tolower(words) # convert to lower case
-wtable = sort(table(words), decreasing=T)
+
+slice_sequence = function(sequence, order=1) {
+  wslice = numeric(0)
+  for (i in 1:(length(sequence)-order+1)) {
+    wslice[i] = paste(sequence[i:(i+order-1)], collapse=' ')
+  }
+  return(wslice)
+}
 
 count_table = function(sequence, order=1) {
   wnames = sort(union(sequence, c()))
-  nameslist = list()
-  for (i in 1:order) {
-    nameslist = append(nameslist, list(wnames))
-  }
-  dim = length(wnames)^order
-  result = do.call(expand.grid, nameslist)
-  result$Words = apply(result, 1, function(x) paste(x, collapse=' '))
-  result$Count = rep(0, dim)
   
   # making slice of sequence
   wslice = numeric(0)
@@ -26,14 +25,33 @@ count_table = function(sequence, order=1) {
     wslice[i] = paste(sequence[i:(i+order-1)], collapse=' ')
   }
   
+  words = numeric(0)
+  count = numeric(0)
   for (w in wslice) {
-    i = match(w, result$Words)
-    result$Count[i] = result$Count[i] + 1
+    i = match(w, words)
+    if (is.na(i)) { # new entry
+      i = length(count)+1
+      words[i] = w
+      count[i] = 0
+    }
+    count[i] = count[i] + 1
   }
+  o = order(count, words, decreasing=T)
+  words = words[o]
+  count = count[o]
   
-  result$Probability = result$Count / length(wslice)
-  
+  # we use strings instead of factors
+  t = default.stringsAsFactors()
+  options(stringsAsFactors=F)
+  result = data.frame(Words=words, Count=count)
+  options(stringsAsFactors=t)
   return(result)
 }
 
-count_table(words, order=2)
+wtable=count_table(words, order=order)
+#wtable[1:10,] # 10 most frequent words
+
+# Practice 4 starts here.
+wtable$Probability = wtable$Count / sum(wtable$Count)
+entropy = sum(wtable$Probability * (-log2(wtable$Probability)))
+entropy
