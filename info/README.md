@@ -15,3 +15,6 @@ This practices are used in
 Information Theory and Its Application, NUU 2015 ISS
 
 [http://www.nuu.edu.tw/UIPWeb/wSite/ct?xItem=113278&ctNode=20181&mp=119]
+
+
+Also, I made a [slide](http://www.slideshare.net/YoshikiSatotani/practice-of-information-theory-with-r)
