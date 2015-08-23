@@ -18,3 +18,9 @@ Information Theory and Its Application, NUU 2015 ISS
 
 
 Also, I made a [slide](http://www.slideshare.net/YoshikiSatotani/practice-of-information-theory-with-r)
+
+## note for participants of NUU 2015 ISS
+To obtain the e coli sequence,
+(http://www.ecogene.org/old/SequenceDownload.php)
+In case that you can't get the sequence from there,
+(https://drive.google.com/folderview?id=0ByDAN56t9o_-flR1dnFuU2taZjE1RGVYczNacGVIZ09RcUdKTXNoS3lQajF6T0NqQlBiYU0&usp=sharing)
