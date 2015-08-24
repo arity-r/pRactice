@@ -46,9 +46,9 @@ count = lapply(dna_slice, count_dna)
 entropy = rapply(count, entropy_func)
 
 # create random dna sequence and calculate entropy
-dna_r = sapply(1:length(entropy), function(dummy)
-  paste(sample(dna, size_window, replace=T), collapse=''))
-count_r = lapply(dna_r, count_dna)
+sequence_r = sample(dna, length(sequence), replace=T)
+dna_slice_r = slice_sequence(sequence_r, order=size_window, slid=size_slid)
+count_r = lapply(dna_slice_r, count_dna)
 entropy_r = rapply(count_r, entropy_func)
 
 plot(1:length(entropy), entropy, type='l', ylim=c(min(entropy), 6))
