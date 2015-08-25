@@ -4,7 +4,7 @@
 #'   H(f(p)) = -f(p)*log2(f(p)) -(1-f(p)*log2(1-f(p)))
 #' where f(p) is step function, 0<=f(p)<=1
 
-f = function(x) 1/10 * floor(10*x)
+f = function(x) 1/8 * floor(8*x)
 I = function(p) -log2(p)
 p = seq(0, 1, 1/1000)
 
@@ -22,8 +22,10 @@ H = function(p) {
     return(sapply(p, H))
   }
 }
-plot(f(p), H(f(p)), type='l', main='Simulation')
+plot(f(p), H(f(p)), type='p', cex=0.1, main='Simulation')
 
 # 2. plot entropy function
 H = function(p) -p*log2(p)-(1-p)*log2(1-p)
 plot(f(p), H(f(p)), type='l', main='Theoretical')
+
+par(mfrow=c(1,1))
